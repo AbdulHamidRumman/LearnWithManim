@@ -5,7 +5,7 @@ class SCStructureCN(ThreeDScene): # Coordination Number
     def construct(self):
         # Introduction 
         
-        intro = TextMobject("Simple Cubic Crystal Stucture")
+        intro = TextMobject("Simple Cubic Crystal Structure")
         intro.set_color_by_gradient(GREEN,BLUE)
         self.play(Write(intro),run_time=3)
         self.wait()
