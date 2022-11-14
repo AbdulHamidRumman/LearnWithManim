@@ -1,4 +1,5 @@
 from manimlib import *
+from .crystallography import *
 
 class CubicLattice(VGroup):
     def __init__(self,side_length=2.0,**kwargs):
