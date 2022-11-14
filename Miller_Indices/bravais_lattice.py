@@ -1,3 +1,6 @@
+# This class is applicable for ManimCE versions
+# It hasn't been updated for ManimGL version
+
 from manim import *
 
 class GenLattice(Polyhedron):
